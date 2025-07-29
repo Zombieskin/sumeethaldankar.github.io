@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sumeet Haldankar - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        header, section {
+            padding: 20px;
+        }
+        header {
+            background-color: #0078D7;
+            color: white;
+            text-align: center;
+        }
+        .toggle-btn {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background-color: #0078D7;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .project-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 15px;
+            background-color: #f9f9f9;
+        }
+        .dark-mode {
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        .dark-mode .project-card {
+            background-color: #1e1e1e;
+            border-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    <header>
+        <h1>Sumeet Haldankar</h1>
+        <p>Portfolio of Projects and Experience</p>
+    </header>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>Experienced IT Solutions Manager and Application Development Leader with 15+ years of expertise in product strategy, agile delivery, and enterprise system integration.</p>
+    </section>
+
+    <section>
+        <h2>Career Timeline</h2>
+        <ul>
+            <li><strong>Deloitte - IT Solutions Management</strong> (Oct 2021 – Apr 2024)</li>
+            <li><strong>Concentrix India Pvt Limited</strong> (Jul 2010 – Sep 2021)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Key Projects</h2>
+        <div class="project-card">
+            <h3>Legacy SAP to S/4 Hana Migration</h3>
+            <p>Developed a mediator application for seamless data transfer between SAP legacy and S4 systems. Onboarded 27 clients with improved decision-making and user experience.</p>
+        </div>
+        <div class="project-card">
+            <h3>Operate Platform Consolidation</h3>
+            <p>Unified 8-10 modules into a single application. Integrated ServiceNow for AI/ML-driven incident analytics. Onboarded 243 clients globally with 30% YoY adoption growth.</p>
+        </div>
+        <div class="project-card">
+            <h3>Amazon UK - Production Management System</h3>
+            <p>Led development of a global web-based system for tracking user activities and process reporting. Onboarded 15+ projects, saving $500K annually.</p>
+        </div>
+        <div class="project-card">
+            <h3>Energy Australia - Billing Automation</h3>
+            <p>Implemented Agile-based automation to resolve billing failures. Saved $19K and eliminated 14 FTE manual tasks under Six Sigma Lean Green Belt initiative.</p>
+        </div>
+        <div class="project-card">
+            <h3>Virgin Media UK - Net Promoter Score</h3>
+            <p>Introduced "iknow" tracking app for customer insights. Improved NPS from 3 to 4.5 through better communication and decision-making.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills Demonstrated</h2>
+        <ul>
+            <li>Product Vision and Strategy</li>
+            <li>Stakeholder Collaboration</li>
+            <li>Requirement Analysis and User Stories</li>
+            <li>Product Roadmapping</li>
+            <li>Technical and Business Balancing</li>
+            <li>Release Planning and Coordination</li>
+            <li>Agile Methodologies</li>
+            <li>Customer Feedback Integration</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact Information</h2>
+        <p>Email: sumeet.haldankar@example.com</p>
+        <p>LinkedIn: https://linkedin.com/in/sumeethaldankar</p>
+        <p>GitHub: <a href="https://github.com/sumeethaldankar" target="_blank">github.com/sumeethction toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>

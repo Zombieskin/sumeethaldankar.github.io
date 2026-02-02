@@ -1,120 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Sumeet Haldankar - Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            transition: background-color 0.3s, color 0.3s;
-        }
-        header, section {
-            padding: 20px;
-        }
-        header {
-            background-color: #0078D7;
-            color: white;
-            text-align: center;
-        }
-        .toggle-btn {
-            position: fixed;
-            top: 10px;
-            right: 10px;
-            background-color: #0078D7;
-            color: white;
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-        }
-        .project-card {
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            margin: 10px;
-            padding: 15px;
-            background-color: #f9f9f9;
-        }
-        .dark-mode {
-            background-color: #121212;
-            color: #e0e0e0;
-        }
-        .dark-mode .project-card {
-            background-color: #1e1e1e;
-            border-color: #333;
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sumeet Haldankar</title>
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
-    <header>
-        <h1>Sumeet Haldankar</h1>
-        <p>Portfolio of Projects and Experience</p>
-    </header>
+    <div class="page">
 
-    <section>
-        <h2>Introduction</h2>
-        <p>15+ years of broad-based experience as a certified Experienced Product Manager / Manager- IT Solutions with valuable pure DevOps and SAFe expertise in infrastructure governance and application development alongside stakeholder management, project management, defining cost optimisation and leading global software initiatives. Overall 
-15+ years of experience spread across different verticals in managing omnichannel support for Energy,Telecom, Insurance, Operate Business, Supply Chain and Logistics, Customer Life Cycle management for large utility platform and applications. Equipped with excellent communication skills, work ethics and possesses a strong sense of 
-leadership with a commendable record of accomplishment.</p>
-    </section>
+        <header class="header">
+            <h1 class="name">Sumeet Haldankar</h1>
+            <p class="subtitle">
+                Manager – IT Solution · DevOps · GitLab · Synergy · Automation
+            </p>
+        </header>
 
-    <section>
-        <h2>Career Timeline</h2>
-        <ul>
-            <li><strong>Deloitte - IT Solutions Management</strong> (Oct 2021 – Apr 2024)</li>
-            <li><strong>Concentrix India Pvt Limited</strong> (Jul 2010 – Sep 2021)</li>
-        </ul>
-    </section>
+        <main>
 
-    <section>
-        <h2>Key Projects</h2>
-        <div class="project-card">
-            <h3>Legacy SAP to S/4 Hana Migration</h3>
-            <p>Successfully developed an application acting as a mediator between SAP legacy and S4 systems, facilitating seamless data transfer through intuitive setup flows</p>
-            <p>Successfully on-boarded 27 clients, demonstrating increased agility in decision-making through real-time data visualization. The application’s user-friendly interface significantly improved the overall user experience compared to traditional SAP systems</p>
-         </div>
-        <div class="project-card">
-            <h3>Operate Platform Consolidation</h3>
-            <p>Unified 8-10 modules into a single application. Integrated ServiceNow for AI/ML-driven incident analytics. Onboarded 243 clients globally with 30% YoY adoption growth.</p>
-            <p>Seamlessly integrated ServiceNow instances, enabling deep analysis of incident insights, trends, and predictive analytics using AI/ML</p>
-        </div>
-        <div class="project-card">
-            <h3>Amazon UK - Production Management System</h3>
-            <p>Led development of a global web-based system for tracking user activities and process reporting. Onboarded 15+ projects, saving $500K annually.</p>
-        </div>
-        <div class="project-card">
-            <h3>Energy Australia - Billing Automation</h3>
-            <p>Implemented Agile-based automation to resolve billing failures. Saved $19K and eliminated 14 FTE manual tasks under Six Sigma Lean Green Belt initiative.</p>
-        </div>
-        <div class="project-card">
-            <h3>Virgin Media UK - Net Promoter Score</h3>
-            <p>Introduced "iknow" tracking app for customer insights. Improved NPS from 3 to 4.5 through better communication and decision-making.</p>
-        </div>
-    </section>
+            <section class="section">
+                <h2>About</h2>
+                <p>
+                    I'm an IT Solution Manager based in Pune, specialising in DevOps, CI/CD governance,
+                    enterprise tooling, and enabling high‑performance engineering teams.
+                    I work with global stakeholders to drive automation, code quality, and modern
+                    engineering practices across the organisation.
+                </p>
+            </section>
 
-    <section>
-        <h2>Skills Demonstrated</h2>
-        <ul>
-            <li>Product Vision and Strategy</li>
-            <li>Stakeholder Collaboration</li>
-            <li>Requirement Analysis and User Stories</li>
-            <li>Product Roadmapping</li>
-            <li>Technical and Business Balancing</li>
-            <li>Release Planning and Coordination</li>
-            <li>Agile Methodologies</li>
-            <li>Customer Feedback Integration</li>
-        </ul>
-    </section>
+            <section class="section">
+                <h2>Experience</h2>
 
-    <section>
-        <h2>Contact Information</h2>
-        <p>Email: sumeet990@gmail.com</p>
-        <p>LinkedIn: https://linkedin.com/in/sumeethaldankar</p>
-        <p>GitHub: <a href="https://github.com/sumeethaldankar" target="_blank">github.com/sumeethction toggleDarkMode() {
-            document.body.classList.toggle('dark-mode');
-        }
-    </script>
+                <article class="item">
+                    <h3>Manager – IT Solution</h3>
+                    <p class="meta">Global IT · DevOps, Tooling & Governance</p>
+                    <p>
+                        Leading DevOps transformation, GitLab CI/CD adoption, SonarQube quality governance,
+                        and Synergy lifecycle management. Partnering with product, development, and
+                        infrastructure teams to standardise workflows and accelerate delivery while
+                        maintaining compliance and reliability.
+                    </p>
+                </article>
+            </section>
+
+            <section class="section">
+                <h2>Projects</h2>
+
+                <article class="item">
+                    <h3>DevOps & CI/CD Framework</h3>
+                    <p>
+                        Designed and rolled out standardised GitLab CI/CD pipeline templates for multiple
+                        teams, improving deployment consistency and reducing manual steps in release
+                        processes.
+                    </p>
+                </article>
+
+                <article class="item">
+                    <h3>Synergy Platform Modernisation</h3>
+                    <p>
+                        Led governance, integrations, and continuous improvements for Synergy ALM across
+                        distributed engineering teams, aligning tooling with enterprise development
+                        practices.
+                    </p>
+                </article>
+
+                <article class="item">
+                    <h3>Code Quality & Compliance Automation</h3>
+                    <p>
+                        Implemented SonarQube quality gates and reporting, helping teams catch issues earlier
+                        in the lifecycle and improve code quality and maintainability.
+                    </p>
+                </article>
+            </section>
+
+            <section class="section">
+                <h2>Contact</h2>
+                <p>
+                    Email:
+                    <a href="mailto:your-email@example.com">your-email@example.com</a>
+                </p>
+                <p>
+                    GitHub:
+                    <a href="https://github.com/sumeethaldankar" target="_blank" rel="noopener">
+                        github.com/sumeethaldankar
+                    </a>
+                </p>
+                <p>
+                    LinkedIn:
+                    <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener">
+                        linkedin.com/in/your-profile
+                    </a>
+                </p>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <p>© 2026 · Sumeet Haldankar</p>
+        </footer>
+    </div>
+
+    <!-- Minimal JS for subtle animation -->
+    <script src="script.js"></script>
 </body>
 </html>
